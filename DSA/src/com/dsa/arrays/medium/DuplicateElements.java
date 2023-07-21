@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-TC -> O(N)
+TC -> O(N*N)
 SC -> O(1)
  */
 public class DuplicateElements {
