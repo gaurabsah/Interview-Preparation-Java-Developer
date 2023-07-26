@@ -3,13 +3,13 @@ package com.dsa.algorithms.sorting;
 import java.util.Arrays;
 
 /*
-TC -> O(n^2)
+TC -> O(n)
 SC -> O(1)
  */
 
-public class CycleSort {
+public class CyclicSort {
 
-    static void cycle(int[] arr) {
+    static void cyclic(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i] - 1;
@@ -29,7 +29,7 @@ public class CycleSort {
 
     public static void main(String[] args) {
         int[] arr = {5, 4, 3, 2, 1};
-        cycle(arr);
+        cyclic(arr);
         System.out.println(Arrays.toString(arr));
     }
 
