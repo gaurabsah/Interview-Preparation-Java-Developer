@@ -24,7 +24,9 @@ The main important Application areas of multithreading are:
 When compared with old languages, developing multithreaded applications using Java is very easy beacause Java provides inbuilt support
 for multithreading with rich API [Thread,Runnable,Thread Group...]
 
-2. Ways to create THREAD
+2. THREAD:- Flow of execution
+
+Ways to create THREAD
     a. extending Thread class
 	b. implementing Runnable Interface
 	
