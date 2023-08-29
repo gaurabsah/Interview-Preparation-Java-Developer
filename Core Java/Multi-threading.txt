@@ -11,6 +11,18 @@ a. Process based:- Execution of multiple tasks simultaneously where each task is
 b. Thread based:- Execution of multiple tasks simultaneously where each task is independent to others in same program.
    Example: suppose we have one java program where 10k lines of code are there but half of it is independent to other so we can execute both
    task simultaneously.
+   
+Advantage of Multitasking:
+    - to increase performance by reducing the response time of the system.
+	
+The main important Application areas of multithreading are:
+    - to develop multimedia graphics
+    - to develop animations
+    - to develop video games
+    - to develop web servers & Application Servers
+
+When compared with old languages, developing multithreaded applications using Java is very easy beacause Java provides inbuilt support
+for multithreading with rich API [Thread,Runnable,Thread Group...]
 
 2. Ways to create THREAD
     a. extending Thread class
