@@ -1,0 +1,41 @@
+----------- MULTITHREADING -----------
+
+1. INTRODUCTION
+
+Multitasking:- Execution of multiple tasks simultaneously
+
+Types of Multitasking
+a. Process based:- Execution of multiple tasks simultaneously where each task is independent to others in different program.
+   Example: Writing Java code, listening audion songs, downloading files from internet.
+   
+b. Thread based:- Execution of multiple tasks simultaneously where each task is independent to others in same program.
+   Example: suppose we have one java program where 10k lines of code are there but half of it is independent to other so we can execute both
+   task simultaneously.
+
+2. Ways to create THREAD
+    a. extending Thread class
+	b. implementing Runnable Interface
+	
+3. Getting & Setting name of Thread
+   a. Getting name of Current Thread:- Thread.currentThread().getName()
+
+4. Thread Priorities
+
+5. Methods to prevent Thread Execution
+     a. yield()
+	 b. join()
+	 c. sleep()
+	 
+6. Synchronization
+
+7. Inter-Thread Communication
+     a. wait()
+	 b. notify()
+	 c. notifyAll()
+	 
+8. DeadLock
+
+9. Daemon Threads
+
+10. Multithreading Enhancement
+
