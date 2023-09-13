@@ -1,0 +1,64 @@
+
+SYSTEM DESIGN
+
+1. SQL vs No-SQL
+------------------
+# SQL :
+- SQL has fixed schema, tables, records & relations (relations between multiple tables).
+- SQL has feature of NORMALIZATION. It make sure every data is stored only once.
+
+*Limitations*
+- Number of fields in the records are fixed. It can't be possible one record has three fields and another has four.
+- Join makes query slow.
+
+Due to these limitations, people started using No-SQL.
+
+No-SQL:
+- No-SQL can be used for a scalable projects as it can store large amount of data.
+- It doesn't have fixed schema.
+-Types :
+ 1. Key-Value DB (Redis,mongodb)
+ 2. Document DB
+ 3. Graph DB (Fb, Netflix use this)
+ 
+ CAP Theorem: 
+ - Consistency ( Data should be consistent with read/write operation)
+ - Availability ( Application should be available anytime)
+ - Partition tolorance (partial failure)
+ 
+ whenever u are designing a distributed system, u can't achieve all CAP features at a time.
+ 
+ Availability - Consistency :- SQL Server, MySQL, Oracle, PostgreSQL
+ Consistency - Partition tolorance :- MongoDB, Redis, Memcache, Hbase
+ Availability - Partition tolorance :- Cassandra, CouchDB, DynamoDB
+ 
+ 
+2. Sharding (https://www.geeksforgeeks.org/database-sharding-a-system-design-concept/)
+----------------
+- You cann't implement scalable Application without Sharding technique.
+- Whenever any application starts receiving a huge amount of concurrent requests and it sees significant growth of the users on the website it eventually needs to scale to handle the increasing amount of data or traffic on the website. 
+  It’s difficult to predict the growth of the website in the future, and we can’t predict how long a website will maintain its popularity and growth. So we need to scale our database dynamically and database sharding is the technique that can fulfill this job.
+
+
+3. HLD (High Level Design)
+--------------------------
+a. Design Facebook NewsFeed
+
+NewsFeed includes:- 
+     1. status update
+	 2. photos, videos, links
+	 3. likes, comments from people, pages, groups that a user follows on Facebook
+	 
+Requirements:-
+ - Append new post they arrive
+ - Feed may contain image, video, text
+ - NewsFeed must be generated based on user followed
+ - Design High Scalable System
+ 
+ 
+b. Design Instant text messaging system (WhatsApp/Messanger)
+
+Requirements:-
+ - Service should support one to one conversation
+ - Service should support persistent storage of chat history
+ - Service should keep track of online/offline status of its users
