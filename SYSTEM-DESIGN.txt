@@ -56,9 +56,31 @@ Requirements:-
  - Design High Scalable System
  
  
+- Database:- MongoDB
+ 
+ 
 b. Design Instant text messaging system (WhatsApp/Messanger)
 
 Requirements:-
  - Service should support one to one conversation
  - Service should support persistent storage of chat history
  - Service should keep track of online/offline status of its users
+ 
+ 
+c. Design Twitter like Social Media Application
+Requirements:-
+ -
+
+
+d. Design a ride sharing Application like Uber/Ola
+Requirements:-
+- 
+
+
+e. Design instagram
+f. Design Drop Box/Google Drive
+g. Design Hit Counter
+h. Design Tiny URL
+i. Design BookMyShow
+j. Design YouTube/Netflix
+ 

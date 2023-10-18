@@ -2,6 +2,10 @@ package com.array1;
 
 import java.util.Arrays;
 
+/*
+asked in FaceBook Interview
+ */
+
 public class SetMatrixZeros {
 
     //    Brute force
